@@ -19,7 +19,7 @@ async function inviaDomanda() {
         body: JSON.stringify(domanda)
     };
     
-    await fetch("https://e4f70b39ee8f.ngrok-free.app/ask", options).then(
+    await fetch("https://ceaab5c5be72.ngrok-free.app/ask", options).then(
         response => response.json()
     ).then((data) => {
         console.log(data);
