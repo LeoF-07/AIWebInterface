@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="onLoad_Setup()">
+    <div id="risposta"></div>
+    
+    <br>
+    <form id="formDomanda" action="" onsubmit="event.preventDefault()">
+        <textarea placeholder="Scrivi la domanda" name="" id="domanda"></textarea>
+        <br>
+        <button type="submit" id="pulsanteInviaDomanda" onclick="inviaDomanda()">Invia domanda</button>
+    </form>
+    <script src="myScript.js"></script>
+</body>
+
+</html>
