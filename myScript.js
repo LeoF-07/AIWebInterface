@@ -19,7 +19,7 @@ async function inviaDomanda() {
         body: JSON.stringify(domanda)
     };
     
-    await fetch("http://127.0.0.1:9000/ask", options).then(
+    await fetch("https://e4f70b39ee8f.ngrok-free.app/ask", options).then(
         response => response.json()
     ).then((data) => {
         console.log(data);
